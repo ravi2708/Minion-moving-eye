@@ -1,0 +1,44 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:tomato;
+}
+
+#box{
+	width: 250px;
+	height:350px;
+	background-color:white;
+	border: 5px solid black;
+	padding: 50px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	z-index:1;
+}
+
+#box:hover{
+	cursor:wait;
+}
+
+#box #minion{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:350px;
+	height:450px;
+}
+
+.eye{
+	width:92px;
+	height:92px;
+	background-color:white;
+	font-size:100px;
+	font-weight: bold;
+	border-radius: 50%;
+	text-align:center;
+	position: absolute;	
+	top:15%;
+	left:38.5%;
+}
